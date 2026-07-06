@@ -10,13 +10,14 @@ No cloud, no ads, no external APIs — just you and your money.
 <br/>
 
 [![Next.js](https://img.shields.io/badge/Next.js_14-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Prisma](https://img.shields.io/badge/Prisma_ORM-5-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
-[![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Zustand](https://img.shields.io/badge/Zustand-5-443E38?style=for-the-badge&logo=zustand&logoColor=white)](https://github.com/pmndrs/zustand)
-[![Recharts](https://img.shields.io/badge/Recharts-3-FF6B6B?style=for-the-badge&logo=recharts&logoColor=white)](https://recharts.org/)
-[![Zod](https://img.shields.io/badge/Zod-4-3068B7?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript_5-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_3.4-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma_ORM_5-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![SQLite](https://img.shields.io/badge/SQLite_3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Zustand](https://img.shields.io/badge/Zustand_5-443E38?style=for-the-badge&logo=zustand&logoColor=white)](https://github.com/pmndrs/zustand)
+[![Recharts](https://img.shields.io/badge/Recharts_3-FF6B6B?style=for-the-badge&logo=recharts&logoColor=white)](https://recharts.org/)
+[![Zod](https://img.shields.io/badge/Zod_4-3068B7?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/)
+[![Lucide](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 </div>
@@ -47,34 +48,34 @@ No cloud, no ads, no external APIs — just you and your money.
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| **Dashboard** | At-a-glance view of your net worth, spending trends, and financial health |
-| **Analytics** | Interactive charts — pie, bar, area, heatmap — with period filtering |
-| **Budgets** | Per-category budgets with smart reallocation suggestions and donut progress |
-| **Savings Goals** | Track goals with ETA predictions, contribution history, and progress rings |
-| **Subscriptions** | Track recurring bills, get renewal reminders, pause/resume |
-| **Recurring** | Auto-generated recurring income/expense schedules |
-| **Group Splits** | Split expenses equally or by percentage, track balances, settle up |
-| **Calendar** | Week/month/year views showing transactions, subscriptions, and goal deadlines |
-| **Insights Engine** | 15+ rule-based behavioral analysis rules and a financial health score |
-| **CSV Import/Export** | Auto-detect columns, date formats, and transaction types |
-| **Settings** | Profile management, currency preferences, category management |
+| | Feature | Description |
+|---|---------|-------------|
+| <img src="https://lucide.dev/api/icons/layout-dashboard?color=000000" width="20" height="20"> | **Dashboard** | At-a-glance view of your net worth, spending trends, and financial health |
+| <img src="https://lucide.dev/api/icons/bar-chart-3?color=000000" width="20" height="20"> | **Analytics** | Interactive charts — pie, bar, area, heatmap — with period filtering |
+| <img src="https://lucide.dev/api/icons/wallet?color=000000" width="20" height="20"> | **Budgets** | Per-category budgets with smart reallocation suggestions and donut progress |
+| <img src="https://lucide.dev/api/icons/target?color=000000" width="20" height="20"> | **Savings Goals** | Track goals with ETA predictions, contribution history, and progress rings |
+| <img src="https://lucide.dev/api/icons/repeat-2?color=000000" width="20" height="20"> | **Subscriptions** | Track recurring bills, get renewal reminders, pause/resume |
+| <img src="https://lucide.dev/api/icons/repeat?color=000000" width="20" height="20"> | **Recurring** | Auto-generated recurring income/expense schedules |
+| <img src="https://lucide.dev/api/icons/users?color=000000" width="20" height="20"> | **Group Splits** | Split expenses equally or by percentage, track balances, settle up |
+| <img src="https://lucide.dev/api/icons/calendar-days?color=000000" width="20" height="20"> | **Calendar** | Week/month/year views showing transactions, subscriptions, and goal deadlines |
+| <img src="https://lucide.dev/api/icons/brain-circuit?color=000000" width="20" height="20"> | **Insights Engine** | 15+ rule-based behavioral analysis rules and a financial health score |
+| <img src="https://lucide.dev/api/icons/file-spreadsheet?color=000000" width="20" height="20"> | **CSV Import/Export** | Auto-detect columns, date formats, and transaction types |
+| <img src="https://lucide.dev/api/icons/settings?color=000000" width="20" height="20"> | **Settings** | Profile management, currency preferences, category management |
 
 ## Tech Stack
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Frontend** | [Next.js 14](https://nextjs.org/) (App Router) | UI framework with SSR and API routes |
-| **Language** | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
-| **State** | [Zustand](https://github.com/pmndrs/zustand) | Lightweight client-side state |
-| **Charts** | [Recharts](https://recharts.org/) | Data visualization |
-| **Database** | [SQLite](https://www.sqlite.org/) | Local file-based database |
-| **ORM** | [Prisma](https://www.prisma.io/) | Type-safe database queries |
-| **Auth** | [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) + [bcryptjs](https://github.com/nicedoc/bcrypt.js) | JWT tokens + password hashing |
-| **Validation** | [Zod](https://zod.dev/) | Schema validation |
-| **Icons** | [Lucide React](https://lucide.dev/) | Beautiful icon library |
+| | Layer | Technology | Purpose |
+|---|-------|------------|---------|
+| <img src="https://lucide.dev/api/icons/monitor?color=000000" width="18" height="18"> | **Frontend** | [Next.js 14](https://nextjs.org/) (App Router) | UI framework with SSR and API routes |
+| <img src="https://lucide.dev/api/icons/code-2?color=000000" width="18" height="18"> | **Language** | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
+| <img src="https://lucide.dev/api/icons/palette?color=000000" width="18" height="18"> | **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| <img src="https://lucide.dev/api/icons/database?color=000000" width="18" height="18"> | **State** | [Zustand](https://github.com/pmndrs/zustand) | Lightweight client-side state |
+| <img src="https://lucide.dev/api/icons/bar-chart-3?color=000000" width="18" height="18"> | **Charts** | [Recharts](https://recharts.org/) | Data visualization |
+| <img src="https://lucide.dev/api/icons/hard-drive?color=000000" width="18" height="18"> | **Database** | [SQLite](https://www.sqlite.org/) | Local file-based database |
+| <img src="https://lucide.dev/api/icons/boxes?color=000000" width="18" height="18"> | **ORM** | [Prisma](https://www.prisma.io/) | Type-safe database queries |
+| <img src="https://lucide.dev/api/icons/shield?color=000000" width="18" height="18"> | **Auth** | [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) + [bcryptjs](https://github.com/nicedoc/bcrypt.js) | JWT tokens + password hashing |
+| <img src="https://lucide.dev/api/icons/check-circle?color=000000" width="18" height="18"> | **Validation** | [Zod](https://zod.dev/) | Schema validation |
+| <img src="https://lucide.dev/api/icons/smile?color=000000" width="18" height="18"> | **Icons** | [Lucide React](https://lucide.dev/) | Beautiful icon library |
 
 ## Quick Start
 
