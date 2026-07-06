@@ -9,15 +9,15 @@ No cloud, no ads, no external APIs — just you and your money.
 
 <br/>
 
-<a href="https://nextjs.org/"><img src="https://lucide.dev/api/icons/layout?color=000000" width="18" height="18" /> Next.js 14</a> · 
-<a href="https://www.typescriptlang.org/"><img src="https://lucide.dev/api/icons/code-2?color=3178C6" width="18" height="18" /> TypeScript 5</a> · 
-<a href="https://tailwindcss.com/"><img src="https://lucide.dev/api/icons/wind?color=38bdf8" width="18" height="18" /> Tailwind CSS</a> · 
-<a href="https://www.prisma.io/"><img src="https://lucide.dev/api/icons/boxes?color=2D3748" width="18" height="18" /> Prisma ORM</a> · 
-<a href="https://www.sqlite.org/"><img src="https://lucide.dev/api/icons/hard-drive?color=003B57" width="18" height="18" /> SQLite</a> · 
+<a href="https://nextjs.org/"><img src="https://cdn.simpleicons.org/nextdotjs/000000" width="18" height="18" /> Next.js 14</a> · 
+<a href="https://www.typescriptlang.org/"><img src="https://cdn.simpleicons.org/typescript/3178C6" width="18" height="18" /> TypeScript 5</a> · 
+<a href="https://tailwindcss.com/"><img src="https://cdn.simpleicons.org/tailwindcss/38bdf8" width="18" height="18" /> Tailwind CSS</a> · 
+<a href="https://www.prisma.io/"><img src="https://cdn.simpleicons.org/prisma/2D3748" width="18" height="18" /> Prisma ORM</a> · 
+<a href="https://www.sqlite.org/"><img src="https://cdn.simpleicons.org/sqlite/003B57" width="18" height="18" /> SQLite</a> · 
 <a href="https://github.com/pmndrs/zustand"><img src="https://lucide.dev/api/icons/database?color=443E38" width="18" height="18" /> Zustand</a> · 
 <a href="https://recharts.org/"><img src="https://lucide.dev/api/icons/bar-chart-3?color=FF6B6B" width="18" height="18" /> Recharts</a> · 
-<a href="https://zod.dev/"><img src="https://lucide.dev/api/icons/check-circle?color=3068B7" width="18" height="18" /> Zod</a> · 
-<a href="https://lucide.dev/"><img src="https://lucide.dev/api/icons/smile?color=000000" width="18" height="18" /> Lucide</a> · 
+<a href="https://zod.dev/"><img src="https://cdn.simpleicons.org/zod/3068B7" width="18" height="18" /> Zod</a> · 
+<a href="https://lucide.dev/"><img src="https://cdn.simpleicons.org/lucide/000000" width="18" height="18" /> Lucide</a> · 
 <a href="LICENSE"><img src="https://lucide.dev/api/icons/shield-check?color=FFB020" width="18" height="18" /> MIT License</a>
 
 </div>
@@ -66,16 +66,16 @@ No cloud, no ads, no external APIs — just you and your money.
 
 | | Layer | Technology | Purpose |
 |---|-------|------------|---------|
-| <img src="https://lucide.dev/api/icons/monitor?color=000000" width="18" height="18"> | **Frontend** | [Next.js 14](https://nextjs.org/) (App Router) | UI framework with SSR and API routes |
-| <img src="https://lucide.dev/api/icons/code-2?color=000000" width="18" height="18"> | **Language** | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
-| <img src="https://lucide.dev/api/icons/palette?color=000000" width="18" height="18"> | **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| <img src="https://cdn.simpleicons.org/nextdotjs/000000" width="18" height="18"> | **Frontend** | [Next.js 14](https://nextjs.org/) (App Router) | UI framework with SSR and API routes |
+| <img src="https://cdn.simpleicons.org/typescript/000000" width="18" height="18"> | **Language** | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
+| <img src="https://cdn.simpleicons.org/tailwindcss/000000" width="18" height="18"> | **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
 | <img src="https://lucide.dev/api/icons/database?color=000000" width="18" height="18"> | **State** | [Zustand](https://github.com/pmndrs/zustand) | Lightweight client-side state |
 | <img src="https://lucide.dev/api/icons/bar-chart-3?color=000000" width="18" height="18"> | **Charts** | [Recharts](https://recharts.org/) | Data visualization |
-| <img src="https://lucide.dev/api/icons/hard-drive?color=000000" width="18" height="18"> | **Database** | [SQLite](https://www.sqlite.org/) | Local file-based database |
-| <img src="https://lucide.dev/api/icons/boxes?color=000000" width="18" height="18"> | **ORM** | [Prisma](https://www.prisma.io/) | Type-safe database queries |
+| <img src="https://cdn.simpleicons.org/sqlite/000000" width="18" height="18"> | **Database** | [SQLite](https://www.sqlite.org/) | Local file-based database |
+| <img src="https://cdn.simpleicons.org/prisma/000000" width="18" height="18"> | **ORM** | [Prisma](https://www.prisma.io/) | Type-safe database queries |
 | <img src="https://lucide.dev/api/icons/shield?color=000000" width="18" height="18"> | **Auth** | [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) + [bcryptjs](https://github.com/nicedoc/bcrypt.js) | JWT tokens + password hashing |
-| <img src="https://lucide.dev/api/icons/check-circle?color=000000" width="18" height="18"> | **Validation** | [Zod](https://zod.dev/) | Schema validation |
-| <img src="https://lucide.dev/api/icons/smile?color=000000" width="18" height="18"> | **Icons** | [Lucide React](https://lucide.dev/) | Beautiful icon library |
+| <img src="https://cdn.simpleicons.org/zod/000000" width="18" height="18"> | **Validation** | [Zod](https://zod.dev/) | Schema validation |
+| <img src="https://cdn.simpleicons.org/lucide/000000" width="18" height="18"> | **Icons** | [Lucide React](https://lucide.dev/) | Beautiful icon library |
 
 ## Quick Start
 
