@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Loader2, Save, Key, Shield, User, Settings2, Trash2, AlertTriangle, Calendar, Diamond, Eye, EyeOff, Check } from "lucide-react";
-import { scorePassword, getPasswordStrengthLabel } from "@/lib/auth";
+import { scorePassword, getPasswordStrengthLabel } from "@/lib/password-strength";
 import { SECURITY_QUESTIONS } from "@/data/security-questions";
 import ImportExportCard from "@/components/settings/ImportExportCard";
 import CategoryManager from "@/components/settings/CategoryManager";
@@ -109,12 +109,18 @@ export default function SettingsPage() {
 
   useEffect(() => {
     Promise.all([
-      fetch("/api/users/me").then((r) => r.json()),
-      fetch("/api/settings/security-questions").then((r) => r.json()),
+      fetch("/api/users/me").then((r) => {
+        if (!r.ok) throw new Error("Failed to load profile");
+        return r.json();
+      }),
+      fetch("/api/settings/security-questions").then((r) => {
+        if (!r.ok) return [];
+        return r.json();
+      }),
     ]).then(([profileData, sqData]) => {
       setProfile(profileData);
       setName(profileData.name);
-      setAge(profileData.age.toString());
+      setAge(profileData.age?.toString() ?? "");
       setGender(profileData.gender);
       setCurrencyCode(profileData.currencyCode);
       setNumberFormat(profileData.numberFormat);
@@ -189,8 +195,11 @@ export default function SettingsPage() {
       setSecurityError("All 3 questions and answers are required");
       return;
     }
-    const questions = [sq1, sq2, sq3];
-    const unique = new Set(questions.map((q) => q.question));
+    const questions = [sq1, sq2, sq3].map((sq) => ({
+      questionText: sq.question,
+      answer: sq.answer,
+    }));
+    const unique = new Set(questions.map((q) => q.questionText));
     if (unique.size !== 3) {
       setSecurityError("All 3 questions must be different");
       return;

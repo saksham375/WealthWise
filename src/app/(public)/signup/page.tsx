@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Eye, EyeOff, ArrowRight, ArrowLeft, Check, Loader2 } from "lucide-react";
-import { scorePassword, getPasswordStrengthLabel } from "@/lib/auth";
+import { scorePassword, getPasswordStrengthLabel } from "@/lib/password-strength";
 import { SECURITY_QUESTIONS } from "@/data/security-questions";
 
 export default function SignupPage() {

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, Check, Eye, EyeOff, Loader2 } from "lucide-react";
-import { scorePassword, getPasswordStrengthLabel } from "@/lib/auth";
+import { scorePassword, getPasswordStrengthLabel } from "@/lib/password-strength";
 
 export default function ForgotPasswordPage() {
   const router = useRouter();
