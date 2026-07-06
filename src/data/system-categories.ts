@@ -1,0 +1,26 @@
+export const SYSTEM_CATEGORIES = [
+  { name: "Food & Dining", type: "expense", iconName: "UtensilsCrossed", color: "#000000" },
+  { name: "Transportation", type: "expense", iconName: "Car", color: "#171717" },
+  { name: "Utilities", type: "expense", iconName: "Zap", color: "#262626" },
+  { name: "Shopping", type: "expense", iconName: "ShoppingBag", color: "#404040" },
+  { name: "Entertainment", type: "expense", iconName: "Popcorn", color: "#525252" },
+  { name: "Healthcare", type: "expense", iconName: "Heart", color: "#737373" },
+  { name: "Education", type: "expense", iconName: "BookOpen", color: "#A3A3A3" },
+  { name: "Travel", type: "expense", iconName: "Plane", color: "#D4D4D4" },
+  { name: "Housing", type: "expense", iconName: "Home", color: "#000000" },
+  { name: "Subscriptions", type: "expense", iconName: "RefreshCw", color: "#171717" },
+  { name: "Personal Care", type: "expense", iconName: "Sparkles", color: "#262626" },
+  { name: "Fitness", type: "expense", iconName: "Dumbbell", color: "#404040" },
+  { name: "Debt Payments", type: "expense", iconName: "CreditCard", color: "#525252" },
+  { name: "Gifts & Donations", type: "expense", iconName: "Gift", color: "#737373" },
+  { name: "Other Expense", type: "expense", iconName: "MoreHorizontal", color: "#A3A3A3" },
+  { name: "Salary", type: "income", iconName: "Briefcase", color: "#000000" },
+  { name: "Freelance", type: "income", iconName: "Code2", color: "#171717" },
+  { name: "Investments", type: "income", iconName: "TrendingUp", color: "#262626" },
+  { name: "Bonus", type: "income", iconName: "Trophy", color: "#404040" },
+  { name: "Rental Income", type: "income", iconName: "Building2", color: "#525252" },
+  { name: "Goal Contribution", type: "income", iconName: "Target", color: "#737373" },
+  { name: "Other Income", type: "income", iconName: "MoreHorizontal", color: "#A3A3A3" },
+] as const;
+
+export type SystemCategory = (typeof SYSTEM_CATEGORIES)[number];

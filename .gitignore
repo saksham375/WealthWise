@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# build artifacts
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# database
+*.db
+*.db-journal
+*.db.backup
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+*.pem
+
+# vercel
+.vercel
+
+# uploads
+public/uploads/

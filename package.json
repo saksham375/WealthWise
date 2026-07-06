@@ -1,0 +1,59 @@
+{
+  "name": "wealthwise",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "npx prisma generate && npx prisma migrate dev --skip-seed && npx tsx prisma/seed.ts",
+    "db:migrate": "npx prisma migrate dev --skip-seed",
+    "db:seed": "npx tsx prisma/seed.ts",
+    "db:reset": "rm -f prisma/dev.db && npx prisma migrate dev --skip-seed && npx tsx prisma/seed.ts",
+    "db:studio": "npx prisma studio",
+    "db:generate": "npx prisma generate",
+    "lint": "eslint src/ --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^3.0.3",
+    "date-fns": "^4.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "lucide-react": "^1.16.0",
+    "next": "^14.2.35",
+    "papaparse": "^5.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.8.1",
+    "sharp": "^0.34.5",
+    "uuid": "^14.0.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.13"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.1.0",
+    "@eslint/eslintrc": "^3.3.5",
+    "@faker-js/faker": "^10.4.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.9.1",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "^8.5.15",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}
