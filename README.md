@@ -9,16 +9,16 @@ No cloud, no ads, no external APIs — just you and your money.
 
 <br/>
 
-[![Next.js](https://img.shields.io/badge/Next.js_14-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript_5-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_3.4-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Prisma](https://img.shields.io/badge/Prisma_ORM_5-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
-[![SQLite](https://img.shields.io/badge/SQLite_3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Zustand](https://img.shields.io/badge/Zustand_5-443E38?style=for-the-badge&logo=zustand&logoColor=white)](https://github.com/pmndrs/zustand)
-[![Recharts](https://img.shields.io/badge/Recharts_3-FF6B6B?style=for-the-badge&logo=recharts&logoColor=white)](https://recharts.org/)
-[![Zod](https://img.shields.io/badge/Zod_4-3068B7?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/)
-[![Lucide](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+<a href="https://nextjs.org/"><img src="https://lucide.dev/api/icons/layout?color=000000" width="18" height="18" /> Next.js 14</a> · 
+<a href="https://www.typescriptlang.org/"><img src="https://lucide.dev/api/icons/code-2?color=3178C6" width="18" height="18" /> TypeScript 5</a> · 
+<a href="https://tailwindcss.com/"><img src="https://lucide.dev/api/icons/wind?color=38bdf8" width="18" height="18" /> Tailwind CSS</a> · 
+<a href="https://www.prisma.io/"><img src="https://lucide.dev/api/icons/boxes?color=2D3748" width="18" height="18" /> Prisma ORM</a> · 
+<a href="https://www.sqlite.org/"><img src="https://lucide.dev/api/icons/hard-drive?color=003B57" width="18" height="18" /> SQLite</a> · 
+<a href="https://github.com/pmndrs/zustand"><img src="https://lucide.dev/api/icons/database?color=443E38" width="18" height="18" /> Zustand</a> · 
+<a href="https://recharts.org/"><img src="https://lucide.dev/api/icons/bar-chart-3?color=FF6B6B" width="18" height="18" /> Recharts</a> · 
+<a href="https://zod.dev/"><img src="https://lucide.dev/api/icons/check-circle?color=3068B7" width="18" height="18" /> Zod</a> · 
+<a href="https://lucide.dev/"><img src="https://lucide.dev/api/icons/smile?color=000000" width="18" height="18" /> Lucide</a> · 
+<a href="LICENSE"><img src="https://lucide.dev/api/icons/shield-check?color=FFB020" width="18" height="18" /> MIT License</a>
 
 </div>
 
